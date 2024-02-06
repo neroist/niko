@@ -6,6 +6,8 @@ nb.darkMode()
 nb.title = "pali \"suli\" + ilo sin lukin"
 
 nbText: """
+# pali "suli" + ilo sin lukin
+
 nanpa wan la mi pali e ijo suli • ilo [lcui] li lon li lon toki ilo [c] •
 jan li ken kepeken ona kepeken toki [c] taso • taso a mi pali li kama ken
 e toki ante [nim] a tawa kepeken • tan pali mi la jan li ken kepeken ilo
@@ -36,7 +38,7 @@ LCUI_API char *strdup2(const char *str);
 
 ilo li mu ni ->
 
-```
+```text
 Warning: token expected: ; but got: [identifier] [SyntaxError]
 ```
 
@@ -56,7 +58,7 @@ typedef enum
 
 mu ilo li ni ->
 
-```
+```text
 file.h(2, 1) Error: identifier expected, but got:
  [NewLine] (pxNewLine)
 ```
