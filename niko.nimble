@@ -6,12 +6,11 @@ version       = "0.4.0"
 author        = "niko"
 description   = "Make nimib look beautiful with nimitheme"
 license       = "MIT"
-srcDir        = "." # $projectDir
 
 # Tasks
 
 task pali, "o pali e lipu ale":
-  mkdir("out")
+  mkdir "out"
 
   let lipu = if commandLineParams()[^1] in ["pali"]: 
       "toki"
