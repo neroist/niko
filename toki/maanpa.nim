@@ -45,3 +45,5 @@ la sina ken kama weka tan ma kepeken nasin seme • sina sona ala a e nasin
 li lon ala la sina ken ala lukin • sina kama ken ala weka tan ma li kama
 ken ala lukin • ni la sina ken kama moli a lon ma • ni li ike nanpa wan a
 """
+
+nbSave
