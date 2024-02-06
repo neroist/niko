@@ -4,7 +4,7 @@ import std/os
 
 version       = "0.1.0"
 author        = "niko"
-description   = "Make nimib look beautiful with nimitheme"
+description   = "lipu niko"
 license       = "MIT"
 
 # Tasks
