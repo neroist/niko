@@ -1,0 +1,41 @@
+name: deploy-to-pages
+run-name: Deploy to Github Pages
+
+on: 
+  push:
+    branches:
+      - "main"
+    paths:
+      - ".github/workflows/pages.yml"
+      - "toki/**"
+      
+      - "open.nim"
+
+jobs:
+  generate-doc:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Nim
+        uses: jiro4989/setup-nim-action@v1
+        with:
+          nim-version: stable
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: o pali e lipu ale
+        run: |
+          nimble install nimib -y
+
+          nimble pali
+
+      - name: o ilo GitHub Pages e lipu # www msa mi o toki ante seme
+        if: success()
+        uses: crazy-max/ghaction-github-pages@v3
+        with:
+          build_dir: out
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
