@@ -1,6 +1,7 @@
 import nimib
 
-nbInit 
+nbInit
+nb.title = "lipu open"
 
 nb.darkMode()
 
@@ -23,11 +24,17 @@ ni la mi ante e lipu kepeken
 
 mi kama pali e lipu ni
 
-  li kama kepeken ona
+li kama kepeken ona
 
 ## toki mi
 
-[mi pana lon tenpo kama]
+* [ma anpa pi ma tomo Paki](./toki/maanpa.html)
+* [alasa sona [nanpa]](./toki/alasasona.html)
+* [kala li tonsi](./toki/kalatonsi.html)
+* [pali "suli" + ilo sin lukin](./toki/palisuli.html)
+* [mi kute e mukalamasin](./toki/mukalamasin.html)
+
+toki ante o kama
 """
 
 nb.filename = "index.html"
