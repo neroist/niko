@@ -8,7 +8,7 @@ nb.title = "alasa sona [nanpa]"
 nbText: """
 # alasa sona `[nanpa]`
 
-> *(alasa ni li tan ala mi li tan sitelen [[https://youtu.be/7Vd1dTBVbFg](https://youtu.be/7Vd1dTBVbFg)])*
+> *(alasa ni li tan ala mi li tan sitelen [<https://youtu.be/7Vd1dTBVbFg>])*
 
 ma sina la ali li ike • kulupu wan li lawa e jan ale e ma ale • utala suli
 li lon • taso sina en kulupu sina li ken weka e lawa • li ken kama e pona •
