@@ -9,6 +9,7 @@ on:
       - ".github/workflows/pages.yml"
       - "toki/**"
       
+      - "niko.nimle"
       - "open.nim"
 
 jobs:
