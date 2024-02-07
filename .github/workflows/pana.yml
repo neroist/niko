@@ -6,7 +6,7 @@ on:
     branches:
       - "main"
     paths:
-      - ".github/workflows/pages.yml"
+      - ".github/workflows/pana.yml"
       - "toki/**"
       
       - "niko.nimble"
