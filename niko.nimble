@@ -14,10 +14,10 @@ task pali, "o pali e lipu ale":
 
   let lipu = if commandLineParams()[^1] in ["pali"]: 
       "toki"
+
+      exec "nim r open.nim"
     else:
       "toki/" & commandLineParams()[^1]
-
-  exec "nim r open.nim"
 
   if dirExists(lipu):
     for file in walkDirRec(lipu):
