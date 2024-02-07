@@ -13,9 +13,9 @@ task pali, "o pali e lipu ale":
   mkdir "out"
 
   let lipu = if commandLineParams()[^1] in ["pali"]: 
-      "toki"
-
       exec "nim r open.nim"
+      
+      "toki"
     else:
       "toki/" & commandLineParams()[^1]
 
