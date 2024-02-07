@@ -34,6 +34,10 @@ li kama kepeken ona
 * [pali "suli" + ilo sin lukin](./toki/palisuli.html)
 * [mi kute e mukalamasin](./toki/mukalamasin.html)
 
+### sitelen pona !?
+
+* [open](./toki/sitelenpona)
+
 toki ante o kama
 """
 
