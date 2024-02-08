@@ -23,7 +23,7 @@ nimi ~500 · kin sina ken ante e kon nimi kepeken pana
 | evlet              | lete                |
 
 **evlet**viizym
-(nimi "ym" en nimi "viiz" li tawa pini nimi · sina pana a e ona tawa pini)
+(nimi "ym" en nimi "viiz" li tawa pini nimi · sina **pana a** e ona tawa pini)
 
 ### ↓
 
