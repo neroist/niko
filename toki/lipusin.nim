@@ -10,18 +10,22 @@ mu! mi toki lili taso lon ni
 
 kulupu mi la mute li kama pali e toki sin · ona li toki nasa a tawa mi li
 sama ala toki pona · ona li suli a · toki pona la nimi ~137 · toki ni la
-nimi ~500 · kin sina ken ante e kon nimi kepeken pana  sama ni **↓**
+nimi ~500 · kin sina ken ante e kon nimi kepeken pana 
 
-| toki sin | toki pona |
-| -------- | --------- |
-| -mi      | mi        |
-| ryhu     | nasa      |
+#### sama ni **↓**
 
-ryhumi (nimi "mi" li tawa pini nimi · sina pana a e ona tawa pini)
+|      toki sin      |      toki pona      |
+| ------------------ | ------------------- |
+| -ym                | mi (li)             |
+| -viiz              | lon tenpo pini poka |
+| evlet              | lete                |
+
+**evlet**viizym
+(nimi "mi" en nimi "viiz" li tawa pini nimi · sina pana a e ona tawa pini)
 
 ### ↓
 
-mi nasa
+mi lete lon tenpo pini poka
 
 ---
 
