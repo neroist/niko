@@ -44,7 +44,7 @@ pali lipu la mi pali e lipu ante mute · ona li kepeken nasin CSV (`<nimi>.csv`)
 
 `[ken la tenpo kama la mi pana e ona]`
 
-kin ona li pona tawa jan mi! · toki ona la lipu mi li pona a!
+kin ona li pona tawa akesi toki mi! · toki ona la lipu mi li pona a!
 """
 
 nbImage(
