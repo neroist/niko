@@ -6,6 +6,8 @@ nb.darkMode()
 nb.title = "pali sin niko: lipu sin"
 
 nbText: """
+<!-- # pali sin niko: lipu sin -->
+
 mu! mi toki lili taso lon ni
 
 kulupu mi la mute li kama pali e toki sin · ona li toki nasa a tawa mi li
