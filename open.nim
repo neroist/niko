@@ -33,6 +33,7 @@ li kama kepeken ona
 * [kala li tonsi](./toki/kalatonsi.html)
 * [pali "suli" + ilo sin lukin](./toki/palisuli.html)
 * [mi kute e mukalamasin](./toki/mukalamasin.html)
+* [pali sin niko: lipu sin](./toki/palisin.html)
 
 ### sitelen pona !?
 
