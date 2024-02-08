@@ -49,7 +49,7 @@ kin ona li pona tawa jan mi! • toki ona la lipu mi li pona a!
 
 nbImage(
   "images/tokiplalav.webp",
-  "toki ona",
+  "",
   "toki ona"
 )
 
