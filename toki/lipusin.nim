@@ -54,7 +54,6 @@ nbImage(
 )
 
 nbText: """
-
 taso sina ken ala lukin e lipu a >:3 · sina lon ala kulupu mi la ken ala
 a!
 
