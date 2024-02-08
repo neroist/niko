@@ -1,1 +1,5 @@
 *.exe
+*.html
+
+out/
+!out/fonts
