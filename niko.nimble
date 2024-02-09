@@ -22,7 +22,7 @@ task pali, "o pali e lipu ale":
   if dirExists(lipu):
     for file in walkDirRec(lipu):
       if file.splitFile().ext == ".nim":
-        exec "nim r -d:release" & file 
+        exec "nim r -d:release " & file 
   else:
     exec "nim r " & lipu
 
