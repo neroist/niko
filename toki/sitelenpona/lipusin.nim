@@ -87,7 +87,7 @@ zzzzzzzzzzzzzzzztawa pali
 
 ona li kepeken nasin CSV 
 
-nimi ona li nasin `<nimi>.csv`
+nimi ona li lon nasin `<nimi>.csv`
 
 > ken la tenpo kama la mi pana e ona
 
