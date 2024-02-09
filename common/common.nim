@@ -10,7 +10,7 @@ const
 }
 
 main {
-  font-size: larger;
+  font-size: 1.65em;
   font-family: "sitelen seli kiwen mono asuki" !important;
 }
 """
