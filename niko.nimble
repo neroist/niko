@@ -13,7 +13,7 @@ task pali, "o pali e lipu ale":
   mkdir "out"
 
   let lipu = if commandLineParams()[^1] in ["pali"]: 
-      exec "nim r open.nim"
+      exec "nim r -d:release open.nim"
       
       "toki"
     else:
@@ -22,7 +22,7 @@ task pali, "o pali e lipu ale":
   if dirExists(lipu):
     for file in walkDirRec(lipu):
       if file.splitFile().ext == ".nim":
-        exec "nim r " & file 
+        exec "nim r -d:release" & file 
   else:
     exec "nim r " & lipu
 
