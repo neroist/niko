@@ -3,8 +3,7 @@ import std/strutils
 import nimib
 
 when defined(release):
-  const
-    spCss* = """
+  const spCss* = """
   @font-face {
     font-family: "sitelen seli kiwen mono asuki";
     src: url(/niko/fonts/sitelenselikiwenmonoasuki.ttf);
@@ -16,8 +15,7 @@ when defined(release):
   }
 """
 else:
-  const
-    spCss* = """
+  const spCss* = """
   @font-face {
     font-family: "sitelen seli kiwen mono asuki";
     src: url(/out/fonts/sitelenselikiwenmonoasuki.ttf);
