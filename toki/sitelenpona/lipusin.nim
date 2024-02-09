@@ -85,7 +85,9 @@ pali lipu la mi pali e lipu ante mute
 
 zzzzzzzzzzzzzzzztawa pali
 
-ona li kepeken nasin CSV `<nimi>.csv`
+ona li kepeken nasin CSV 
+
+nimi ona li nasin `<nimi>.csv`
 
 > ken la tenpo kama la mi pana e ona
 
