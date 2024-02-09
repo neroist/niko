@@ -2,17 +2,31 @@ import std/strutils
 
 import nimib
 
-const
-  spCss* = """
-@font-face {
-  font-family: "sitelen seli kiwen mono asuki";
-  src: url(fonts/sitelenselikiwenmonoasuki.ttf);
-}
+when defined(release):
+  const
+    spCss* = """
+  @font-face {
+    font-family: "sitelen seli kiwen mono asuki";
+    src: url(/niko/fonts/sitelenselikiwenmonoasuki.ttf);
+  }
 
-main {
-  font-size: 1.65em;
-  font-family: "sitelen seli kiwen mono asuki" !important;
-}
+  main {
+    font-size: 1.65em;
+    font-family: "sitelen seli kiwen mono asuki" !important;
+  }
+"""
+else:
+  const
+    spCss* = """
+  @font-face {
+    font-family: "sitelen seli kiwen mono asuki";
+    src: url(/out/fonts/sitelenselikiwenmonoasuki.ttf);
+  }
+
+  main {
+    font-size: 1.65em;
+    font-family: "sitelen seli kiwen mono asuki" !important;
+  }
 """
 
 template addCss*(doc: var NbDoc; style: string) =
