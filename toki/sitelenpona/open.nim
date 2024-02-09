@@ -6,6 +6,7 @@ nbInit
 
 nb.addCss(spCss)
 nb.darkMode()
+nb.title = "lipu open ante"
 
 nbTextSp: """
 # lipu open
