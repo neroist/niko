@@ -33,7 +33,7 @@ kin sina ken ante e kon nimi kepeken pana
 | -VIIZ              | lon tenpo pini poka |
 | EVELET             | lete                |
 
-> nimi「YM」en nimi「VIIZ」li tawa pini nimi 
+> nimi [YM] en nimi [VIIZ] li tawa pini nimi 
 > 
 > sina pana a e ona tawa pini
 
@@ -65,7 +65,7 @@ mi sona ala e toki
 
 zzzzzze sona toki
 
-zzzzzze nimi 「DATIVE CASE」
+zzzzzze nimi [DATIVE CASE]
 
 zzzzzze nimi sama 
 
@@ -73,7 +73,7 @@ taso a mi sona e ijo ante
 
 zzzzzzzze ilo a 
 
-mi kama pali e lipu a tawa ilo「MEMRISE」
+mi kama pali e lipu a tawa ilo [MEMRISE]
 
 zzzzzzzzzzzztawa toki ni^
 
