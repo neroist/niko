@@ -5,8 +5,8 @@ import nimib
 const
   spCss* = """
 @font-face {
-  font-family: "sitelen seli kiwen mono asuki"
-  src: url(fonts/sitelenselikiwenmonoasuki.ttf)
+  font-family: "sitelen seli kiwen mono asuki";
+  src: url(fonts/sitelenselikiwenmonoasuki.ttf);
 }
 
 main {
