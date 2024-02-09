@@ -22,11 +22,7 @@ template nbTextSp*(text: string) =
   let txt = text
               .replace("zz", "　") # better spaces
 
-              .replace("niv", "ni") # better multidirectional ni omg
-              .replace("ni>", "ni2")
-              .replace("ni^", "ni3")
-              .replace("ni<", "ni4")
-              .replace("niv>", "ni5")
+              .replace("niv>", "ni5") # better multidirectional ni omg
               .replace("ni>v", "ni5")
               .replace("ni^>", "ni6")
               .replace("ni>^", "ni6")
@@ -34,5 +30,15 @@ template nbTextSp*(text: string) =
               .replace("ni<^", "ni7")
               .replace("niv<", "ni8")
               .replace("ni<v", "ni8")
+              .replace("niv", "ni") 
+              .replace("ni>", "ni2")
+              .replace("ni^", "ni3")
+              .replace("ni<", "ni4")
+
+              .replace("a!?", "a5") # a alts
+              .replace("a?!", "a5") 
+              .replace("a!!!", "a4") 
+              .replace("a!!", "a3") 
+              .replace("a!", "a2") 
 
   nbText(txt)
