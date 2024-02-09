@@ -9,6 +9,7 @@ const spCss* = """
 }
 
 main {
+  line-height: 2rem;
   font-size: 1.65em;
   font-family: "sitelen seli kiwen mono asuki" !important;
 }
