@@ -1,7 +1,10 @@
 import nimib
 
+import ../common/common
+
 nbInit 
 
+nb.tpFooter()
 nb.darkMode()
 nb.title = "pali sin niko: lipu sin"
 

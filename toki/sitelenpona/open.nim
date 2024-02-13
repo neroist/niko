@@ -5,6 +5,7 @@ import ../../common/common
 nbInit
 
 nb.addCss(spCss)
+nb.tpFooter()
 nb.darkMode()
 nb.title = "lipu open ante"
 

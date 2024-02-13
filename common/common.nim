@@ -2,7 +2,8 @@ import std/strutils
 
 import nimib
 
-const spCss* = """
+const
+  spCss* = """
 @font-face {
   font-family: "sitelen seli kiwen mono asuki";
   src: 
@@ -16,10 +17,14 @@ main {
   font-family: "sitelen seli kiwen mono asuki" !important;
 }
 """
+  ilo = """<span class="nb-small">mi pali e lipu ni kepeken ilo <a href="https://pietroppeter.github.io/nimib/">nimib 🐳</a></span>"""
 
 template addCss*(doc: var NbDoc; style: string) =
   doc.context["nb_style"] = doc.context["nb_style"].vString &
     '\n' & "<style>\n" & style & "\n</style>"
+
+template tpFooter*(doc: var NbDoc) = 
+  doc.partials["footer_left"] = ilo
 
 template nbTextSp*(text: string) = 
   let txt = text
