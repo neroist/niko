@@ -12,15 +12,18 @@ nb.title = "lipu open ante"
 nbTextSp: """
 # lipu open
 
-mu a
+mu a!!!
+
+<!-- ni ko [ni: ko:] li mi -->
 
 mi alasa sitelen pona lon lipu ni
 
-sitelen li ike la o toki e ike ona
+sitelen li ike la o toki e ike ona tawa mi
 
 ## toki mi
 
-mi kama sitelen pona e toki ali a mi
+* [kala li tonsi la](./kalatonsi.html)
+* [lipu sin mi](./lipusin.html)
 
 o awen
 """
