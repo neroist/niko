@@ -1,8 +1,11 @@
 import nimib
 
+import ./common/common
+
 nbInit
 nb.title = "lipu open"
 
+nb.tpFooter()
 nb.darkMode()
 
 nbText: """
