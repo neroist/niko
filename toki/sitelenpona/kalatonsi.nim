@@ -101,7 +101,9 @@ ijo sin a niv
 
 zzlukin la ona li sona ala e meli2 e tonsi 
 
-zzzzzzzzli pakala ala e kala
+zzzzzzona li pakala ala e kala a!!!
+
+<!-- this^ is confusing · is the second sentence in the la phrase? -->
 
 zzni>^ li pona mute a
 
@@ -109,9 +111,9 @@ zzni>^ li pona mute a
 
 kin sona sin niv li kama lon mi 
 
-zzzzzzzztenpo la kala li ken kama lili sama [sitelen ni<](https://raw.githubusercontent.com/neroist/poki/53f83c7db482fa1e5f123297a6cae20f1714fb83/sitelen/flathaj.jpg)
+zzzzzztenpo la kala li ken kama lili sama [sitelen ni<](https://raw.githubusercontent.com/neroist/poki/53f83c7db482fa1e5f123297a6cae20f1714fb83/sitelen/flathaj.jpg)
 
-zzni^> li ike tawa mi o
+zzni^> li ike tawa mi a!!
 
 ona o awen suli a
 
@@ -144,6 +146,8 @@ zzzzzzzzzzzzzzona li awen weka
 zzzzzzzzzzzzzzzzli kama ala lon mi a
 
 ni^> li ike suli
+
+<br>
 
 kin kala li kama lili la 
 
