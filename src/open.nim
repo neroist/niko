@@ -37,6 +37,7 @@ li kama kepeken ona
 * [pali "suli" + ilo sin lukin](./palisuli.html)
 * [mi kute e mukalamasin](./mukalamasin.html)
 * [pali sin niko: lipu sin](./lipusin.html)
+* [sin ilo](./sin.html)
 
 ### sitelen pona !?
 
