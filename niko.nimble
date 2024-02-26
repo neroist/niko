@@ -13,8 +13,6 @@ task pali, "o pali e lipu ale":
   mkdir "out"
 
   let lipu = if commandLineParams()[^1] in ["pali"]: 
-      #exec "nim r tokiopen.nim"
-      
       "src"
     else:
       "src/" & commandLineParams()[^1]
@@ -25,6 +23,9 @@ task pali, "o pali e lipu ale":
         exec "nim r " & file 
   else:
     exec "nim r " & lipu
+
+task tawa, "o tawa e lipu tawa poki niko.linluwi.la":
+  cpDir "./out", getHomeDir() / "niko.linluwi.la" / "web" # tawa
 
 # Dependencies
 
