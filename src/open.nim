@@ -1,6 +1,6 @@
 import nimib
 
-import ./common/common
+import ../common/common
 
 nbInit
 nb.title = "lipu open"
