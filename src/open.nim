@@ -31,16 +31,16 @@ li kama kepeken ona
 
 ## toki mi
 
-* [ma anpa pi ma tomo Paki](./toki/maanpa.html)
-* [alasa sona [nanpa]](./toki/alasasona.html)
-* [kala li tonsi](./toki/kalatonsi.html)
-* [pali "suli" + ilo sin lukin](./toki/palisuli.html)
-* [mi kute e mukalamasin](./toki/mukalamasin.html)
-* [pali sin niko: lipu sin](./toki/lipusin.html)
+* [ma anpa pi ma tomo Paki](./maanpa.html)
+* [alasa sona [nanpa]](./alasasona.html)
+* [kala li tonsi](./kalatonsi.html)
+* [pali "suli" + ilo sin lukin](./palisuli.html)
+* [mi kute e mukalamasin](./mukalamasin.html)
+* [pali sin niko: lipu sin](./lipusin.html)
 
 ### sitelen pona !?
 
-* [open](./toki/sitelenpona)
+* [open](./sitelenpona)
 
 toki ante o kama
 """

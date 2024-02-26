@@ -28,6 +28,4 @@ sitelen li ike la o toki e ike ona tawa mi
 o awen
 """
 
-nb.filename = "toki/sitelenpona/index.html"
 nbSave
-
