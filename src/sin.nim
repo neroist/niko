@@ -6,13 +6,15 @@ nbInit
 
 nb.tpFooter()
 nb.darkMode()
-nb.title = "sin"
+nb.title = "sin ilo"
 
 nb.addCss: """
 figure { text-align: center; }
 """
 
 nbText: """
+# sin ilo
+
 insa ilo la ilo mute mute a li lon li pali a tawa ilo · ilo li awen e ilo
 insa kepeken poki insa ona a · suli la nasin poki tu li lon · nasin SSD en
 nasin HDD · mi kepeken nasin SSD · taso nasin SSD anu nasin HHD anu nasin
@@ -41,6 +43,8 @@ e ike wawa a
 nbSep()
 
 nbText: """
+## ike wawa
+
 lipu `CapabilityAccessManager.db-wal` li pali lili taso tawa pilin mi tawa
 lukin ike mi · taso lon la ona li pali suli · pali ona li suli tawa ilo 
 mute · ilo kute mi en ilo Wifi en ilo mute a · mi pini li open sin
@@ -55,6 +59,8 @@ mi ken ala kepeken ilo ni la mi kama alasa e nasin pona kepeken ilo ante
 nanpa wan · mi sin e nasin ilo Windows mi · pali ni li weka e ijo mute a
 tan ilo mi · aaa open la ni li ike a tawa mi · taso nasin ante pona li lon
 ala la mi kepeken · ona li kama e pona mute e pona ni kin
+
+### pona
 """
 
 nbImage(
