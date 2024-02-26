@@ -8,7 +8,8 @@ const
   font-family: "sitelen seli kiwen mono asuki";
   src: 
     url(/niko/fonts/sitelenselikiwenmonoasuki.ttf), /* jan li lukin e lipu la ni */
-    url(/out/fonts/sitelenselikiwenmonoasuki.ttf); /* mi pali e lipu la ni */
+    url(/fonts/sitelenselikiwenmonoasuki.ttf),      /* jan li lukin e lipu ante sama la ni */
+    url(/out/fonts/sitelenselikiwenmonoasuki.ttf);  /* mi pali e lipu la ni */
 }
 
 main {
