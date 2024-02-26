@@ -6,7 +6,7 @@ nbInit
 
 nb.tpFooter()
 nb.darkMode()
-nb.title = "kala li tonsi la "
+nb.title = "kala li tonsi la"
 
 nbText: """
 # kala li tonsi la

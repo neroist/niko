@@ -26,6 +26,9 @@ template addCss*(doc: var NbDoc; style: string) =
 template tpFooter*(doc: var NbDoc) = 
   doc.partials["footer_left"] = ilo
 
+template nbSep*() = 
+  nbText: "---"
+
 template nbTextSp*(text: string) = 
   let txt = text
               .replace("zz", "　") # better spaces
