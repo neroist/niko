@@ -15,6 +15,8 @@ nb.title = "mi seme a"
 nbText: """
 # mi seme...
 
+aaa
+
 ## nimi mi li seme a
 
 o awen a · mi kama e nimi...
