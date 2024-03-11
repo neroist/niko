@@ -13,17 +13,6 @@ nb.addCss: """
 figure { text-align: center; }
 """
 
-# images are too big
-nbRawHtml: """
-<script defer>
-let images = document.getElementsByTagName("img")
-
-for (var img of images) {
-  img.style.width = "30em"
-}
-</script>
-"""
-
 # --- open ----
 
 nbText: """
@@ -139,7 +128,17 @@ ona li ni -> [0 4 2]
 pona aaaa
 
 > mu :3
+"""
 
+# images are too big
+nbRawHtml: """
+<script defer>
+let images = document.getElementsByTagName("img")
+
+for (var img of images) {
+  img.style.width = "30em"
+}
+</script>
 """
 
 nbSave
