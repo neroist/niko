@@ -25,7 +25,7 @@ nbCode:
 
   nimi.add nimi_open.sample() # nasin sample li kama e ijo wan tan kulupu ijo `nimi_open`
   
-  nimi.add " " # mi tu e nimi tu kepeken weka ni · mi pana ala la ona tu li wan
+  nimi.add ' ' # mi tu e nimi tu kepeken weka ni · mi pana ala la ona tu li wan
   
   nimi.add nimi_pini.sample()
                     .capitalizeAscii() # ni li suli e sitelen nanpa wan lon nimi
