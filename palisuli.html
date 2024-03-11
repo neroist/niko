@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <title>pali &quot;suli&quot; + ilo sin lukin</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>🐳</text></svg>">
+  <meta content="text/html; charset=utf-8" http-equiv="content-type">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="nimib 0.3.10" name="generator">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.min.css">
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/pietroppeter/nimib/assets/androidstudio.css'>
+    <script src="https://cdn.jsdelivr.net/gh/pietroppeter/nimib@main/assets/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+
+  <style>
+.nb-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nb-small {
+  font-size: 0.8rem;
+}
+button.nb-small {
+  float: right;
+  padding: 2px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+section#source {
+  display:none
+}
+pre > code {
+  font-size: 1.2em;
+}
+.nb-output {
+  line-height: 1.15;
+}
+figure {
+  margin: 2rem 0;
+}
+figcaption {
+  text-align: center;
+}
+  
+</style>
+  
+</head>
+<body>
+<header>
+<div class="nb-box">
+  <span><a href=".">🏡</a></span>
+  <span><code>palisuli.nim</code></span>
+  <span><a href="https://github.com/neroist/niko"><svg aria-hidden="true" width="1.2em" height="1.2em" style="vertical-align: middle; fill: #fff" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg></a></span>
+</div>
+<hr>
+</header><main>
+<h1>pali &quot;suli&quot; + ilo sin lukin</h1>
+<p>nanpa wan la mi pali e ijo suli • ilo [lcui] li lon li lon toki ilo [c] •
+jan li ken kepeken ona kepeken toki [c] taso • taso a mi pali li kama ken
+e toki ante [nim] a tawa kepeken • tan pali mi la jan li ken kepeken ilo
+[lcui] kepeken toki [nim] • mi pana e wawa mute mute suli suli ala tawa
+pali ni • ona li lon lipu [https://github.com/neroist/lcui]</p>
+<p>tenpo lon la lon la jan li ken kepeken ni lon ilo [windows] taso • mi wile
+ken e ilo [linux] • taso mi ken ni kepeken nasin seme a... • kin ni li wile
+e pali mute a • mi wile ala pali mute</p>
+<p>taso a mi pali e ni kepeken nasin seme? • kepeken ilo seme? • pali ni (mi)
+en pali sama la toki [nim] la ilo [c2nim] li wawa mute a • sitelen li lon
+toki [c] la ilo ni li ken ante e sitelen tawa toki [nim] • ilo ni li lili
+a e pali mi e pali jan</p>
+<p>taso ilo ni li ken ike lon tenpo • mi alasa kepeken ona la mi pana e sitelen
+tawa ona • ona li lukin e ali sitelen li alasa e pakala • pakala li lon la
+ona li ante ala e sitelen li mu e pakala sitelen taso • lon la pakala ni li
+pakala tawa ona taso.. li pakala ala lon lon • taso a ona li mu la mi weka
+e pakala sitelen li alasa kepeken (sin e) ona • weka la ilo li kama pona li
+ante e sitelen</p>
+<p>pakala wan li ni -&gt;</p>
+<pre><code class="language-c">LCUI_API char *strdup2(const char *str);
+</code></pre>
+<p>ilo li mu ni -&gt;</p>
+<pre><code class="language-text">Warning: token expected: ; but got: [identifier] [SyntaxError]
+</code></pre>
+<p>ken la ona li sona ala e nimi [LCUI_API] la nimi ni li pakala tawa ona • ww llmsa..</p>
+<p>ni kin li pakala tawa ilo -&gt;</p>
+<pre><code class="language-c">typedef enum
+{
+  Z_ORDER_LEVEL_0,//lowest graphic level
+  Z_ORDER_LEVEL_1,//middle graphic level, call activate_layer before use it, draw everything inside the active rect.
+  Z_ORDER_LEVEL_2,//highest graphic level, call activate_layer before use it, draw everything inside the active rect.
+  Z_ORDER_LEVEL_MAX
+}Z_ORDER_LEVEL;
+</code></pre>
+<p>mu ilo li ni -&gt;</p>
+<pre><code class="language-text">file.h(2, 1) Error: identifier expected, but got:
+ [NewLine] (pxNewLine)
+</code></pre>
+<p>mi ken ala a sona e ni... semeeee</p>
+<p>pini la mi kepeken ilo [vscode] kin • ona li ken ante mute e sitelen (toki
+[c] taso ala. ona li ken ante e sitelen ali) kepeken nasin mute mute a •
+ni li pona wawa</p>
+<p>nanpa tu la mi kama kepeken ilo lukin a • kepeken ilo la mi ken lukin e ijo
+weka a • ilo li lon ala a oko mi la mi ken lukin e ijo poka taso</p>
+<p>:3c</p>
+</main>
+<footer>
+<div class="nb-box">
+  <span><span class="nb-small">mi pali e lipu ni kepeken ilo <a href="https://pietroppeter.github.io/nimib/">nimib 🐳</a></span></span>
+  <span></span>
+  <span><button class="nb-small" id="show" onclick="toggleSourceDisplay()">Show Source</button></span>
+</div>
+</footer>
+<section id="source">
+<pre><code class="nohighlight nim hljs"><span class="hljs-keyword">import</span> nimib
+
+<span class="hljs-keyword">import</span> ../common/common
+
+nbInit 
+
+nb.tpFooter()
+nb.darkMode()
+nb.title = <span class="hljs-string">&quot;pali </span><span class="hljs-meta">\&quot;</span><span class="hljs-string">suli</span><span class="hljs-meta">\&quot;</span><span class="hljs-string"> + ilo sin lukin&quot;</span>
+
+nbText: <span class="hljs-string">&quot;&quot;&quot;
+# pali &quot;suli&quot; + ilo sin lukin
+
+nanpa wan la mi pali e ijo suli • ilo [lcui] li lon li lon toki ilo [c] •
+jan li ken kepeken ona kepeken toki [c] taso • taso a mi pali li kama ken
+e toki ante [nim] a tawa kepeken • tan pali mi la jan li ken kepeken ilo
+[lcui] kepeken toki [nim] • mi pana e wawa mute mute suli suli ala tawa
+pali ni • ona li lon lipu [https://github.com/neroist/lcui]
+
+tenpo lon la lon la jan li ken kepeken ni lon ilo [windows] taso • mi wile
+ken e ilo [linux] • taso mi ken ni kepeken nasin seme a... • kin ni li wile
+e pali mute a • mi wile ala pali mute
+
+taso a mi pali e ni kepeken nasin seme? • kepeken ilo seme? • pali ni (mi)
+en pali sama la toki [nim] la ilo [c2nim] li wawa mute a • sitelen li lon
+toki [c] la ilo ni li ken ante e sitelen tawa toki [nim] • ilo ni li lili
+a e pali mi e pali jan
+
+taso ilo ni li ken ike lon tenpo • mi alasa kepeken ona la mi pana e sitelen
+tawa ona • ona li lukin e ali sitelen li alasa e pakala • pakala li lon la
+ona li ante ala e sitelen li mu e pakala sitelen taso • lon la pakala ni li
+pakala tawa ona taso.. li pakala ala lon lon • taso a ona li mu la mi weka
+e pakala sitelen li alasa kepeken (sin e) ona • weka la ilo li kama pona li
+ante e sitelen
+
+pakala wan li ni -&gt;
+
+```c
+LCUI_API char *strdup2(const char *str);
+```
+
+ilo li mu ni -&gt;
+
+```text
+Warning: token expected: ; but got: [identifier] [SyntaxError]
+```
+
+ken la ona li sona ala e nimi [LCUI_API] la nimi ni li pakala tawa ona • ww llmsa..
+
+ni kin li pakala tawa ilo -&gt;
+
+```c
+typedef enum
+{
+  Z_ORDER_LEVEL_0,//lowest graphic level
+  Z_ORDER_LEVEL_1,//middle graphic level, call activate_layer before use it, draw everything inside the active rect.
+  Z_ORDER_LEVEL_2,//highest graphic level, call activate_layer before use it, draw everything inside the active rect.
+  Z_ORDER_LEVEL_MAX
+}Z_ORDER_LEVEL;
+```
+
+mu ilo li ni -&gt;
+
+```text
+file.h(2, 1) Error: identifier expected, but got:
+ [NewLine] (pxNewLine)
+```
+
+mi ken ala a sona e ni... semeeee
+
+pini la mi kepeken ilo [vscode] kin • ona li ken ante mute e sitelen (toki
+[c] taso ala. ona li ken ante e sitelen ali) kepeken nasin mute mute a •
+ni li pona wawa
+
+nanpa tu la mi kama kepeken ilo lukin a • kepeken ilo la mi ken lukin e ijo
+weka a • ilo li lon ala a oko mi la mi ken lukin e ijo poka taso
+
+:3c
+&quot;&quot;&quot;</span>
+
+nbSave</code></pre>
+</section><script>
+function toggleSourceDisplay() {
+  var btn = document.getElementById("show")
+  var source = document.getElementById("source");
+  if (btn.innerHTML=="Show Source") {
+    btn.innerHTML = "Hide Source";
+    source.style.display = "block";
+  } else {
+    btn.innerHTML = "Show Source";
+    source.style.display = "none";
+  }
+}
+</script></body>
+</html>

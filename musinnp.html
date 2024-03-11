@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <title>musinnp.nim</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>🐳</text></svg>">
+  <meta content="text/html; charset=utf-8" http-equiv="content-type">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="nimib 0.3.10" name="generator">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/davidrzs/latexcss/latex.css">
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/pietroppeter/nimib/assets/atom-one-light.css'>
+    <script src="https://cdn.jsdelivr.net/gh/pietroppeter/nimib@main/assets/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+
+  <style>
+.nb-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nb-small {
+  font-size: 0.8rem;
+}
+button.nb-small {
+  float: right;
+  padding: 2px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+section#source {
+  display:none
+}
+pre > code {
+  font-size: 1.2em;
+}
+.nb-output {
+  line-height: 1.15;
+}
+figure {
+  margin: 2rem 0;
+}
+figcaption {
+  text-align: center;
+}
+  
+</style>
+<style>
+figure { text-align: center; }
+
+</style>
+  
+</head>
+<body>
+<header>
+<div class="nb-box">
+  <span><a href=".">🏡</a></span>
+  <span><code>musinnp.nim</code></span>
+  <span><a href="https://github.com/neroist/niko"><svg aria-hidden="true" width="1.2em" height="1.2em" style="vertical-align: middle;" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59c.4.07.55-.17.55-.38c0-.19-.01-.82-.01-1.49c-2.01.37-2.53-.49-2.69-.94c-.09-.23-.48-.94-.82-1.13c-.28-.15-.68-.52-.01-.53c.63-.01 1.08.58 1.23.82c.72 1.21 1.87.87 2.33.66c.07-.52.28-.87.51-1.07c-1.78-.2-3.64-.89-3.64-3.95c0-.87.31-1.59.82-2.15c-.08-.2-.36-1.02.08-2.12c0 0 .67-.21 2.2.82c.64-.18 1.32-.27 2-.27c.68 0 1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82c.44 1.1.16 1.92.08 2.12c.51.56.82 1.27.82 2.15c0 3.07-1.87 3.75-3.65 3.95c.29.25.54.73.54 1.48c0 1.07-.01 1.93-.01 2.2c0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z" fill="#000"></path></svg></a></span>
+</div>
+<hr>
+</header><main>
+<p>tenpo poka la mi lukin e sitelen ni</p>
+<details><summary>ona tan --- tInli li lon li taso</summary>
+<figure>
+<img src="./images/sitelenLmnnp_tIn.jpg" alt="">
+<figcaption></figcaption>
+</figure>
+</details>
+<p>taso ona li lon toki Inli taso! · mi pona toki e ona · o lukin sin</p>
+<figure>
+<img src="./images/sitelenLmnnp_tp_1.jpg" alt="">
+<figcaption></figcaption>
+</figure>
+<p>mi wile alasa e nanpa lon poka sina a! · mi kama toki e nasin</p>
+<h2>sona open</h2>
+<p>sitelen li pana e sona luka tawa mi</p>
+<blockquote>
+<p><code>[&lt;poki&gt; &lt;poki&gt; &lt;poki&gt;]</code></p>
+</blockquote>
+<!-- > sitelen [ li open e kulupu -->
+<!-- > sitelen ] li pini -->
+<blockquote>
+<p>poki la nanpa</p>
+</blockquote>
+<ol>
+<li>kulupu [6 8 2] la wan taso li pona li lon poki pona</li>
+<li>[6 1 4] la wan li pona li lon poki ike</li>
+<li>[2 0 6] la tu a li pona · taso ona li lon poki ike</li>
+<li>[7 3 8] la ale li ike</li>
+<li>[7 8 0] la wan li pona li lon poki ike</li>
+</ol>
+<p>sitelen li pana e utala ni -&gt; o alasa e nanpa pona ale</p>
+<h2>nasin</h2>
+<h3>nanpa <code>[::-1][-1]</code></h3>
+<p>wan la o lukin e sona #5 e sona #4</p>
+<blockquote>
+<ol start="4">
+<li>[7 3 8] la ale li ike</li>
+<li>[7 8 0] la wan li pona li lon poki ike</li>
+</ol>
+</blockquote>
+<p>nanpa ike [7 8] li lon kulupu #5 · ni la sina kama sona · nanpa 0 li pona ·
+taso kulupu nanpa la ona li lon seme? · open anu insa anu pini a anu seme? ·</p>
+<p>sona ni li wile e sona #3 kin</p>
+<blockquote>
+<ol start="3">
+<li>[2 0 6] la tu a li pona · taso ona li lon poki ike</li>
+</ol>
+</blockquote>
+<p>nanpa 0 li pona · taso sona ni en sona #5 la ona li lon ala pini anu insa ·
+ni la <strong>open a</strong> li poki pona tawa ona</p>
+<p>pona ale: [0 ? ?]</p>
+<h3>nanpa pini</h3>
+<p>tu la o lukin e sona #1</p>
+<blockquote>
+<ol>
+<li>[6 8 2] la wan taso li pona li lon poki pona</li>
+</ol>
+</blockquote>
+<p>la o lukin e open kulupu · nanpa 6 li lon · taso lon la nanpa 0 li lon
+open! · ni la nanpa 6 li ike a! · ni li suli kepeken sona #3</p>
+<blockquote>
+<ol start="3">
+<li>[2 0 6] la tu a li pona · taso ona li lon poki ike</li>
+</ol>
+</blockquote>
+<p>nanpa 6 li ike la nanpa sin 2 (+ nanpa 0) li pona a · taso nanpa ni li lon
+seme? · o kepeken sin e sona #1</p>
+<blockquote>
+<ol>
+<li>[6 8 2] la wan taso li pona li lon poki pona</li>
+</ol>
+</blockquote>
+<p>nanpa pona 2 li lon <strong>pini</strong></p>
+<p>pona ale: [0 ? 2]</p>
+<h3>nanpa insa</h3>
+<p>mute la o oko e sona #2 · pini li kepeken sona ni</p>
+<blockquote>
+<ol start="2">
+<li>[6 1 4] la wan li pona li lon poki ike</li>
+</ol>
+</blockquote>
+<p>o sin e sona sina</p>
+<ul>
+<li>kulupu pona li ni -&gt; [0 ? 2]</li>
+<li>nanpa ni ale li ike -&gt; [7 3 8 6]</li>
+</ul>
+<p>ni la kulupu [6 1 4] la nanpa 1 taso anu nanpa 4 taso li ken pona · o alasa
+sona e ken tu ni -&gt;</p>
+<ul>
+<li>
+<p><em>nanpa 1 li pona la</em></p>
+<ul>
+<li>ona li lon poki ike la ona li lon open anu pini ·
+taso <strong>ni li ken ala</strong> · nanpa 0 li lon open · nanpa
+2 li lon pini</li>
+</ul>
+</li>
+<li>
+<p><em>nanpa 4 li pona la</em></p>
+<ul>
+<li>
+<p>ona li lon poki ike la ona li lon open anu insa ·
+<strong>ni li ken</strong> · ona li ken ala lon open tan nanpa 0 ·
+taso <strong>ona li ken lon insa</strong></p>
+<p><strong>ona li nanpa insa</strong></p>
+</li>
+</ul>
+</li>
+</ul>
+<h3>pini</h3>
+<p>mi en sina li sona e nanpa pona ale</p>
+<p>ona li ni -&gt; [0 4 2]</p>
+<p>pona aaaa</p>
+<blockquote>
+<p>mu :3</p>
+</blockquote>
+<script defer>
+let images = document.getElementsByTagName("img")
+
+for (var img of images) {
+  img.style.width = "30em"
+}
+</script>
+</main>
+<footer>
+<div class="nb-box">
+  <span><span class="nb-small">made with <a href="https://pietroppeter.github.io/nimib/">nimib 🐳</a></span></span>
+  <span></span>
+  <span><button class="nb-small" id="show" onclick="toggleSourceDisplay()">Show Source</button></span>
+</div>
+</footer>
+<section id="source">
+<pre><code class="nohighlight nim hljs"><span class="hljs-keyword">import</span> std/strutils
+
+<span class="hljs-keyword">import</span> nimitheme <span class="hljs-keyword">except</span> addCss
+<span class="hljs-keyword">import</span> nimib
+
+<span class="hljs-keyword">import</span> ../common/common
+
+nbInit 
+
+nb.tpFooter()
+nb.useLatexCSS()
+nb.addCss: <span class="hljs-string">&quot;&quot;&quot;
+figure { text-align: center; }
+&quot;&quot;&quot;</span>
+
+<span class="hljs-comment"># --- open ----</span>
+
+nbText: <span class="hljs-string">&quot;&quot;&quot;
+tenpo poka la mi lukin e sitelen ni
+&quot;&quot;&quot;</span>
+
+nbDetails(<span class="hljs-string">&quot;ona tan --- tInli li lon li taso&quot;</span>):
+  nbImage(
+    <span class="hljs-string">&quot;images/sitelenLmnnp_tIn.jpg&quot;</span>
+  )
+
+nbText: <span class="hljs-string">&quot;&quot;&quot;
+taso ona li lon toki Inli taso! · mi pona toki e ona · o lukin sin
+&quot;&quot;&quot;</span>
+
+nbImage(
+  <span class="hljs-string">&quot;images/sitelenLmnnp_tp_1.jpg&quot;</span>
+)
+
+nbText: <span class="hljs-string">&quot;&quot;&quot;
+mi wile alasa e nanpa lon poka sina a! · mi kama toki e nasin
+
+## sona open
+
+sitelen li pana e sona luka tawa mi
+
+&gt; `[&lt;poki&gt; &lt;poki&gt; &lt;poki&gt;]`
+&gt; 
+&lt;!-- &gt; sitelen [ li open e kulupu --&gt;
+&lt;!-- &gt; sitelen ] li pini --&gt;
+&gt; poki la nanpa
+
+1. kulupu [6 8 2] la wan taso li pona li lon poki pona
+2. [6 1 4] la wan li pona li lon poki ike
+3. [2 0 6] la tu a li pona · taso ona li lon poki ike
+4. [7 3 8] la ale li ike
+5. [7 8 0] la wan li pona li lon poki ike
+
+sitelen li pana e utala ni -&gt; o alasa e nanpa pona ale
+
+## nasin
+
+### nanpa `[::-1][-1]`
+
+wan la o lukin e sona #5 e sona #4
+
+&gt; 4. [7 3 8] la ale li ike
+&gt; 5. [7 8 0] la wan li pona li lon poki ike
+
+nanpa ike [7 8] li lon kulupu #5 · ni la sina kama sona · nanpa 0 li pona ·
+taso kulupu nanpa la ona li lon seme? · open anu insa anu pini a anu seme? ·
+
+sona ni li wile e sona #3 kin 
+
+&gt; 3. [2 0 6] la tu a li pona · taso ona li lon poki ike
+
+nanpa 0 li pona · taso sona ni en sona #5 la ona li lon ala pini anu insa ·
+ni la **open a** li poki pona tawa ona
+
+pona ale: [0 ? ?]
+
+### nanpa pini
+
+tu la o lukin e sona #1
+
+&gt; 1. [6 8 2] la wan taso li pona li lon poki pona
+
+la o lukin e open kulupu · nanpa 6 li lon · taso lon la nanpa 0 li lon
+open! · ni la nanpa 6 li ike a! · ni li suli kepeken sona #3
+
+&gt; 3. [2 0 6] la tu a li pona · taso ona li lon poki ike
+
+nanpa 6 li ike la nanpa sin 2 (+ nanpa 0) li pona a · taso nanpa ni li lon
+seme? · o kepeken sin e sona #1
+
+&gt;  1. [6 8 2] la wan taso li pona li lon poki pona
+
+nanpa pona 2 li lon **pini**
+
+pona ale: [0 ? 2]
+
+### nanpa insa
+
+mute la o oko e sona #2 · pini li kepeken sona ni
+
+&gt; 2. [6 1 4] la wan li pona li lon poki ike
+
+o sin e sona sina
+  * kulupu pona li ni -&gt; [0 ? 2]
+  * nanpa ni ale li ike -&gt; [7 3 8 6]
+
+ni la kulupu [6 1 4] la nanpa 1 taso anu nanpa 4 taso li ken pona · o alasa
+sona e ken tu ni -&gt;
+
+  * *nanpa 1 li pona la*
+    - ona li lon poki ike la ona li lon open anu pini ·
+      taso **ni li ken ala** · nanpa 0 li lon open · nanpa
+      2 li lon pini 
+  
+  * *nanpa 4 li pona la*
+    - ona li lon poki ike la ona li lon open anu insa ·
+      **ni li ken** · ona li ken ala lon open tan nanpa 0 ·
+      taso **ona li ken lon insa**
+
+      **ona li nanpa insa**
+  
+### pini
+
+mi en sina li sona e nanpa pona ale
+
+ona li ni -&gt; [0 4 2]
+
+pona aaaa
+
+&gt; mu :3
+&quot;&quot;&quot;</span>
+
+<span class="hljs-comment"># images are too big</span>
+nbRawHtml: <span class="hljs-string">&quot;&quot;&quot;
+&lt;script defer&gt;
+let images = document.getElementsByTagName(&quot;img&quot;)
+
+for (var img of images) {
+  img.style.width = &quot;30em&quot;
+}
+&lt;/script&gt;
+&quot;&quot;&quot;</span>
+
+nbSave
+</code></pre>
+</section><script>
+function toggleSourceDisplay() {
+  var btn = document.getElementById("show")
+  var source = document.getElementById("source");
+  if (btn.innerHTML=="Show Source") {
+    btn.innerHTML = "Hide Source";
+    source.style.display = "block";
+  } else {
+    btn.innerHTML = "Show Source";
+    source.style.display = "none";
+  }
+}
+</script></body>
+</html>
